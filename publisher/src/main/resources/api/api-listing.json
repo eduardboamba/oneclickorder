@@ -1,0 +1,14 @@
+{
+    "name": "hybris Service",
+    "references":[
+        {
+            "namespace": "api",
+            "description": "API definition of publisher",
+            "path": "/",
+            "type": "raml",
+            "fileName": "publisher.raml",
+            "packageName": "one.click.buy.api.generated",
+            "async": false
+        }
+    ]
+}

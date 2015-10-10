@@ -1,0 +1,3 @@
+<included>
+	<logger name="one.click.buy" level="DEBUG" />
+</included>
