@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title":"Order",
+  "type":"object",
+  "properties":
+  {
+    "productid":
+    {
+      "type":"string"
+    },
+	"productquantity":
+    {
+      "type":"int"
+    },
+	"userid":
+    {
+      "type":"string"
+    },
+    "createdAt":
+    {
+      "type":"string",
+      "format":"date-time"
+    }
+  },
+  "required":["productid","productquantity","userid"]
+}

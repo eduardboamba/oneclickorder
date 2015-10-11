@@ -1,0 +1,14 @@
+{
+    "name": "hybris Service",
+    "references":[
+        {
+            "namespace": "api",
+            "description": "API definition of orderconsumer",
+            "path": "/",
+            "type": "raml",
+            "fileName": "orderconsumer.raml",
+            "packageName": "com.sample.consumer.api.generated",
+            "async": false
+        }
+    ]
+}
